@@ -1,3 +1,0 @@
-function Open_menu() {
-    
-}
