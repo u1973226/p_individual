@@ -1,3 +1,3 @@
-function Open_menu() {
-    loadpage("./index.html");   
+function open_menu() {
+    loadpage("./pi_2/index.html");   
 }

@@ -50,3 +50,7 @@ function createItem(color, shape){
 	it.shape = shape;
 	return it;
 }
+
+function to_menu() {
+	loadpage("../")
+}
