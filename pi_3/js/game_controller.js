@@ -13,7 +13,7 @@ var game = new Vue({
 	},
 	created: function(){
 		this.username = sessionStorage.getItem("username","unknown");
-		this.num_cards = sessionStorage.getItem("config");
+		this.num_cards = sessionStorage.getItem("config", JSON.parse(options_data.cards));
 		this.items = items.slice(); // Copiem l'array
 		this.items.sort(function(){return Math.random() - 0.5}); // Array aleatòria
 		this.items = this.items.slice(0, this.num_cards); // Agafem els primers numCards elements
