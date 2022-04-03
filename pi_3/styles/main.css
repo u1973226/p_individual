@@ -23,6 +23,13 @@ input[type=number]{
 
 p{
 	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+div{
+	text-align: center;
+	background-color: white;
 }
 
 button.menu-object:active{
